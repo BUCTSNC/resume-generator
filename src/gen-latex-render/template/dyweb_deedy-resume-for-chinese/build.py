@@ -1,7 +1,20 @@
 import requests
 import os
 
-font_hash_checklist = {"afaffdfaf": "68e109f0f40ca72a15e05cc22786f8e6"}
+font_hash_checklist = {"SourceHanSansSC-Bold.otf":"914f583e687036332cd072dc61600c7b",
+"SourceHanSansSC-ExtraLight.otf":"e545887a389fb4005a017b12f77c1457",
+"SourceHanSansSC-Heavy.otf":"c469026e73e004f3bace31bebad459eb",
+"SourceHanSansSC-Light.otf":"2f276822468c742bc6e2484814e4f624",
+"SourceHanSansSC-Medium.otf":"78c934173750e6cf0612fa2c8c391a5c",
+"SourceHanSansSC-Normal.otf":"f5c7050344d0bcb0d6e87250fe99c70f",
+"SourceHanSansSC-Regular.otf":"32c532646132e7e6755b81fef52e8b13",
+"SourceHanSerifSC-Bold.otf":"1b9afd8c5105c77381a6e64f8122e894",
+"SourceHanSerifSC-ExtraLight.otf":"921372e09a2b5bfded6fce448ea2b51f",
+"SourceHanSerifSC-Heavy.otf":"e1f7b4210a108ff33bbe8722522825c6",
+"SourceHanSerifSC-Light.otf":"2e5b44cbac602e1ec362a521c80fa675",
+"SourceHanSerifSC-Medium.otf":"1f5f4d4793a1914231cc1340aa9dc6b4",
+"SourceHanSerifSC-Regular.otf":"d140b6b3ad0e2f4961467a90446d2fd0",
+"SourceHanSerifSC-SemiBold.otf":"464ea322f8c47267896bcdaf198d4c98"}
 
 
 def get_fonts(font_weighted_name: str):
